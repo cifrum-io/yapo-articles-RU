@@ -1,0 +1,36 @@
+*.pyc
+__pycache__
+.DS_Store
+.coverage
+user
+.project
+.pydevproject
+ve*
+*~
+.*~
+*.iml
+.idea
+out
+.ipynb_checkpoints
+
+# generated pdoc documentation
+api-doc
+
+# Ignoring cram test error
+src/cmdlinetest/test_help.t.err
+
+# sphinx doc artefacts
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Packages
+*.egg
+*.egg-info
+*.eggs
+
+.env
+.tox/
+.mypy_cache/
+.pytype/
+dist/
