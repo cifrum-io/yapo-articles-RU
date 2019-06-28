@@ -1,6 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="yapo-articles-ru",
-    packages=find_packages(),
+    name='yapo_articles_ru',
+    packages=find_packages('src'),
+    package_dir={'': 'src'},
 )

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "yapo-articles-ru"
+name = "yapo_articles_ru"
 version = "0.1.0"
 description = "yapo library blog articles in Russian"
 authors = [
@@ -58,4 +58,3 @@ nbval = "^0.9.1"
 requires = ["poetry >= 0.12, <1"]
 python = ">=3.6, <4"
 build-backend = "poetry.masonry.api"
-
