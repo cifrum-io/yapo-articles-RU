@@ -47,10 +47,10 @@ yapo = { git = "https://github.com/okama-io/yapo.git", rev = "dbf0885993" }
 numpy = "^1.16"
 pandas = "^0.24"
 typing_extensions = "^3.7"
+PyHamcrest = "^1.9"
 
 [tool.poetry.dev-dependencies]
 pytest = "^4.5"
-PyHamcrest = "^1.9"
 jupyterlab = "^0.35.6"
 nbval = "^0.9.1"
 
